@@ -1,0 +1,16 @@
+package ioutil // import "io/ioutil"
+
+Package ioutil implements some I/O utility functions.
+
+As of Go 1.16, the same functionality is now provided by package io or
+package os, and those implementations should be preferred in new code. See
+the specific function documentation for details.
+
+var Discard io.Writer = io.Discard
+func NopCloser(r io.Reader) io.ReadCloser
+func ReadAll(r io.Reader) ([]byte, error)
+func ReadDir(dirname string) ([]fs.FileInfo, error)
+func ReadFile(filename string) ([]byte, error)
+func TempDir(dir, pattern string) (name string, err error)
+func TempFile(dir, pattern string) (f *os.File, err error)
+func WriteFile(filename string, data []byte, perm fs.FileMode) error

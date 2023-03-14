@@ -1,0 +1,43 @@
+Day 1:
+First introduction into Programming:
+What is Golang?
+Use Cases.
+Strengths and weaknesses.
+Introduction into Garbage Collection, Runtime, Plan9 explained,
+OO/Functional programming from the view of Go and so on…
+Setup of the environment and Hello World.
+Day 2-3:
+Introduction into the Language:
+-         Variables
+-         Datatypes, (structs, arrays…)
+-         Flows
+-         Introduction into concurrency
+-         Hands on exercises
+-         Deep dive into the syntax
+-         Deep dive into runtime
+-         Deep dive into concurrency
+-         Methods and interfaces
+-         Error handling, test and debug
+-         Deep dive into the syntax II
+-         Hands on Exercises
+Day 4:
+-         Main Package (explained with hands on exercises)
+-         Create a package (explained with hands on exercises)
+-         Publish a package (explained with hands on exercises)
+-         Study of the standard library
+-         Third party libraries
+Day 5-9:
+-         Server-side programming with Go
+-         Event driven programming with Go
+-         Microservices with Go
+-         Distributed applications with Go
+-         Security in Go
+-         Blockchain and Go
+-         DevOps / Agile development with Go
+-         Hands on exercises including building small applications
+Day 10
+-         Testing your knowledge
+o  Practical programming
+o  Problem solving
+o  Theory
+-         Discussing the test and summary

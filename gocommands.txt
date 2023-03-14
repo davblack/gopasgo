@@ -1,0 +1,14 @@
+docker build -d --target dev . -t go
+docker run -it -v ${PWD}:/work go sh
+
+docker build --rm -t [YOUR IMAGE NAME]:alpha
+docker run -d -p 8080:8081 --name go-docker-app [YOUR IMAGE NAME]:alpha
+
+docker build --rm -t gopas:alpha .
+docker run -d -p 8080:8081 --name go-docker-app gopas:alpha
+
+
+go env 
+
+https://learn.microsoft.com/en-us/training/modules/go-get-started/2-install-go?pivots=windows
+
